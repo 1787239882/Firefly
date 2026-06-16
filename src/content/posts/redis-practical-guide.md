@@ -8,7 +8,7 @@ category: 技术成长
 
 # 006-Redis数据结构与实战场景
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/mysql-practical-guide/](MySQL从入门到SQL优化实战)
 > 下一篇：[/posts/spring-boot-tutorial/](Spring-Boot开发实战教程)
 

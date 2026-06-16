@@ -8,7 +8,7 @@ category: 技术成长
 
 # 009-银行大数据中心知识体系
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/spring-cloud-alibaba/](Spring-Cloud-Alibaba微服务指南)
 > 下一篇：[/posts/linux-ops-handbook/](Linux运维实战手册)
 

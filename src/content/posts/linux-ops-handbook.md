@@ -8,7 +8,7 @@ category: 技术成长
 
 # 010-Linux运维实战手册
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/banking-big-data/](银行大数据中心知识体系)
 > 下一篇：[/posts/docker-deployment-guide/](Docker容器化部署指南)
 

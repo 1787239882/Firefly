@@ -8,7 +8,7 @@ category: 技术成长
 
 # 003-Java从零到精通学习路线
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 下一篇：[/posts/java-multithreading-jvm/](Java多线程与JVM深度指南)
 
 ---

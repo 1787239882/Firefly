@@ -8,7 +8,7 @@ category: 技术成长
 
 # 011-Docker容器化部署指南
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/linux-ops-handbook/](Linux运维实战手册)
 > 下一篇：[/posts/project-practice-collection/](项目实战合集)
 

@@ -8,7 +8,7 @@ category: 技术成长
 
 # 004-Java多线程与JVM深度指南
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/java-learning-roadmap/](Java从零到精通学习路线)
 > 下一篇：[/posts/mysql-practical-guide/](MySQL从入门到SQL优化实战)
 

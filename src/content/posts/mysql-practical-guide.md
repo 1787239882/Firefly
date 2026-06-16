@@ -8,7 +8,7 @@ category: 技术成长
 
 # 005-MySQL从入门到SQL优化实战
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/java-multithreading-jvm/](Java多线程与JVM深度指南)
 > 下一篇：[/posts/redis-practical-guide/](Redis数据结构与实战场景)
 

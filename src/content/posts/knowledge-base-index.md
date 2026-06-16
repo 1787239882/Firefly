@@ -31,18 +31,14 @@ pinned: true
 
 > 26 周 Java 后端从零到 95+ 评分的完整路线
 
-🔗 **入口**：[/posts/banking-guide-index/](总目录)（17 篇完整体系）
-
 | 分类 | 笔记 |
 |------|------|
-| 🧠 基础认知 | [/posts/knowledge-base-index/](岗位解析) · [/posts/knowledge-base-index/](考核拆解) |
 | ☕ Java | [/posts/java-learning-roadmap/](学习路线) · [/posts/java-multithreading-jvm/](多线程与JVM) |
 | 🗄️ 数据库 | [/posts/mysql-practical-guide/](MySQL) · [/posts/redis-practical-guide/](Redis) |
 | 🏗️ 框架 | [/posts/spring-boot-tutorial/](Spring Boot) · [/posts/spring-cloud-alibaba/](Spring Cloud) |
 | 🏛️ 银行大数据 | [/posts/banking-big-data/](大数据中心) |
 | 🖥️ 运维部署 | [/posts/linux-ops-handbook/](Linux) · [/posts/docker-deployment-guide/](Docker) |
 | 🎯 项目实战 | [/posts/project-practice-collection/](项目合集) |
-| 📅 执行攻略 | [/posts/knowledge-base-index/](26周计划) · [/posts/knowledge-base-index/](资源书单) · [/posts/knowledge-base-index/](导师沟通) · [/posts/knowledge-base-index/](95+评分攻略) |
 
 ---
 
@@ -71,6 +67,7 @@ pinned: true
 | [/posts/tortoise-git-guide/](基于Tortoise Git的Git食用指北) | Tortoise Git 图形化操作指南 |
 | [/posts/macos-shell-cheatsheet/](macOS Shell命令速查) | macOS 终端常用命令按场景分类 |
 | [/posts/build-blog-from-scratch/](搭建个人博客网站从零教程) | 从零搭建 Halo + Sakura 主题技术博客 |
+| [/posts/elasticsearch-tutorial/](ElasticSearch从零到上手) | 零基础 ElasticSearch 全文搜索教学 |
 
 ---
 

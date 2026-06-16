@@ -8,7 +8,7 @@ category: 技术成长
 
 # 008-Spring-Cloud-Alibaba微服务指南
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/spring-boot-tutorial/](Spring-Boot开发实战教程)
 > 下一篇：[/posts/banking-big-data/](银行大数据中心知识体系)
 

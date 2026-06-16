@@ -8,9 +8,9 @@ category: 技术成长
 
 # 012-项目实战合集
 
-> 回到 [/posts/banking-guide-index/](总目录)
+> 回到 [/posts/knowledge-base-index/](总目录)
 > 上一篇：[/posts/docker-deployment-guide/](Docker容器化部署指南)
-> 下一篇：[/posts/knowledge-base-index/](26周成长计划执行手册)
+> 下一篇：[返回知识库索引](/posts/knowledge-base-index/)
 
 ---
 
@@ -429,4 +429,4 @@ public class ApiCallLogAspect {
 
 ---
 
-> 下一篇：[/posts/knowledge-base-index/](26周成长计划执行手册) — 每周该干什么
+> 下一篇：[返回知识库索引](/posts/knowledge-base-index/) — 每周该干什么
