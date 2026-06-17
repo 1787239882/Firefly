@@ -4,13 +4,13 @@ import type { SakuraConfig } from "../types/config";
 
 export const sakuraConfig: SakuraConfig = {
 	// 是否启用樱花特效
-	enable: false,
+	enable: true,
 
 	// 是否允许用户在设置中切换
 	switchable: true,
 
 	// 樱花数量
-	sakuraNum: 21,
+	sakuraNum: 12,
 
 	// 樱花越界限制次数，-1为无限循环
 	limitTimes: -1,
@@ -26,9 +26,9 @@ export const sakuraConfig: SakuraConfig = {
 	// 樱花不透明度
 	opacity: {
 		// 樱花最小不透明度
-		min: 0.3,
+		min: 0.18,
 		// 樱花最大不透明度
-		max: 0.9,
+		max: 0.42,
 	},
 
 	// 樱花移动速度

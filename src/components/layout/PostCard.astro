@@ -43,9 +43,28 @@ const {
 } = Astro.props;
 const className = Astro.props.class;
 
+const fallbackCoverImages = [
+	"../../assets/images/DesktopWallpaper/d1.avif",
+	"../../assets/images/DesktopWallpaper/d2.avif",
+	"../../assets/images/DesktopWallpaper/d3.avif",
+	"../../assets/images/DesktopWallpaper/d4.avif",
+	"../../assets/images/DesktopWallpaper/d5.avif",
+	"../../assets/images/DesktopWallpaper/d6.avif",
+];
+
+function pickFallbackCover(seed: string) {
+	const hash = Math.abs(
+		seed.split("").reduce((acc, char) => {
+			return ((acc << 5) - acc + char.charCodeAt(0)) | 0;
+		}, 0),
+	);
+	return fallbackCoverImages[hash % fallbackCoverImages.length];
+}
+
 // 处理随机图：如果image为"api"，则从配置的API获取随机图
-const processedImage = processCoverImageSync(image, entry.id);
-const apiUrls = getApiUrlList(image, entry.id);
+const effectiveImage = image || pickFallbackCover(entry.id || title);
+const processedImage = processCoverImageSync(effectiveImage, entry.id);
+const apiUrls = getApiUrlList(effectiveImage, entry.id);
 const hasCover =
 	processedImage !== undefined &&
 	processedImage !== null &&

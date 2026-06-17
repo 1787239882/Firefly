@@ -61,6 +61,9 @@ export function resolveTheme(theme: LIGHT_DARK_MODE): LIGHT_DARK_MODE {
 }
 
 export function getHue(): number {
+	if (siteConfig.themeColor.fixed) {
+		return getDefaultHue();
+	}
 	// 先检查全局对象
 	if (typeof window === "undefined" || !window.localStorage) {
 		return getDefaultHue();
@@ -76,6 +79,15 @@ export function setHue(hue: number): void {
 		!window.localStorage ||
 		typeof document === "undefined"
 	) {
+		return;
+	}
+	if (siteConfig.themeColor.fixed) {
+		localStorage.removeItem("hue");
+		const r = document.querySelector(":root") as HTMLElement;
+		if (!r) {
+			return;
+		}
+		r.style.setProperty("--hue", String(getDefaultHue()));
 		return;
 	}
 	localStorage.setItem("hue", String(hue));
