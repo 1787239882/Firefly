@@ -2,6 +2,7 @@
 title: Redis数据结构与实战场景
 published: 2026-06-15
 description: Redis五大基础数据结构详解与三大实战场景：缓存设计模式（穿透/击穿/雪崩）、分布式锁、计数器排行榜
+image: ../../assets/images/post-covers/redis-practical-guide.webp
 tags: [Redis, 缓存, 分布式锁, 排行榜, 缓存穿透]
 category: 技术成长
 ---

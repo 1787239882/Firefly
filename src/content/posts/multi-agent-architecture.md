@@ -2,6 +2,7 @@
 title: 多Agent架构详解
 published: 2026-05-19
 description: 深入解析多 Agent 架构的核心原理、通信链路、编排模式，以及与 Tool 调用的对比和场景决策
+image: ../../assets/images/post-covers/multi-agent-architecture.webp
 tags: [AI, Agent, 多 Agent 架构, 面试, 系统设计, 架构]
 category: AI-Agent
 ---

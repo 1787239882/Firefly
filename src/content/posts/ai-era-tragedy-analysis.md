@@ -2,6 +2,7 @@
 title: "AI 时代的最大悲剧：从「我知道」到「我不做」，我们到底失去了什么？"
 published: 2026-06-05
 description: "深度解析 AI 时代最大悲剧：规训如何塑造「不配感」，以及行动资本为何是新时代最稀缺的资产"
+image: ../../assets/images/post-covers/ai-era-tragedy-analysis.webp
 tags: [AI, 深度分析, 社会思考, 个人成长]
 category: "深度思考"
 ---

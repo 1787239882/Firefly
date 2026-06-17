@@ -2,6 +2,7 @@
 title: MySQL从入门到SQL优化实战
 published: 2026-06-15
 description: 从表设计三大范式到索引原理、Explain执行计划分析、SQL优化实战、事务与MVCC机制的完整MySQL指南
+image: ../../assets/images/post-covers/mysql-practical-guide.webp
 tags: [MySQL, SQL优化, 索引, 事务, MVCC, Explain]
 category: 技术成长
 ---

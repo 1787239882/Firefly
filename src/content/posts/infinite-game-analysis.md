@@ -2,6 +2,7 @@
 title: "AI 将赢下所有有限游戏——流水不争先，争的是滔滔不绝"
 published: 2026-06-05
 description: "有限与无限游戏在 AI 时代的重构——AI 将赢下所有有限游戏，人类唯一的出路是成为无限游戏玩家"
+image: ../../assets/images/post-covers/infinite-game-analysis.webp
 tags: [AI, 深度分析, 思维模型, 游戏理论, 有限与无限]
 category: "深度思考"
 ---

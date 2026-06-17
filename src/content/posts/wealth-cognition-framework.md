@@ -2,6 +2,7 @@
 title: "你的人生资产负债表：从「对钱没概念」到财务清醒"
 published: 2026-06-05
 description: "从「记账者」到「觉悟者」——用资产负债表思维重新理解财富认知与人生配置"
+image: ../../assets/images/post-covers/wealth-cognition-framework.webp
 tags: [财富, 认知, 思维框架, 个人成长]
 category: "深度思考"
 ---

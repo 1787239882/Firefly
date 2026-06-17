@@ -2,6 +2,7 @@
 title: Firefly 主题功能展示
 published: 2025-01-01
 description: Firefly 博客主题的完整功能展示——Markdown 扩展、Mermaid/PlantUML 图表、KaTeX 数学公式、代码高亮、视频嵌入、文章加密等
+image: ../../assets/images/post-covers/firefly-theme-demo.webp
 tags: [Firefly, Markdown, 主题, 演示]
 category: 文章示例
 ---

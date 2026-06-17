@@ -2,6 +2,7 @@
 title: macOS Shell 常用命令速查
 published: 2026-06-15
 description: macOS 终端高频命令速查，涵盖文件管理、文本处理、网络、系统信息等十二大类
+image: ../../assets/images/post-covers/macos-shell-cheatsheet.webp
 tags: [macOS, Shell, 命令行, 速查, 效率]
 category: 工具速查
 ---

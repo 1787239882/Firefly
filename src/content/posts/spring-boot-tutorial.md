@@ -2,6 +2,7 @@
 title: Spring-Boot开发实战教程
 published: 2026-06-15
 description: 从零搭建Spring Boot三层架构API接口，涵盖Controller-Service-Mapper、统一返回格式、全局异常处理、Swagger文档与参数校验
+image: ../../assets/images/post-covers/spring-boot-tutorial.webp
 tags: [SpringBoot, API开发, 三层架构, MyBatis-Plus, Swagger]
 category: 技术成长
 ---

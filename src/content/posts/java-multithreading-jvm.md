@@ -2,6 +2,7 @@
 title: Java多线程与JVM深度指南
 published: 2026-06-15
 description: 深入讲解Java多线程编程（线程池、CompletableFuture、锁机制）与JVM内存模型、GC垃圾回收、OOM排查实战
+image: ../../assets/images/post-covers/java-multithreading-jvm.webp
 tags: [Java, 多线程, JVM, GC, 线程池, 并发]
 category: 技术成长
 ---

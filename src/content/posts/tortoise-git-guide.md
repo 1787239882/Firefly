@@ -2,6 +2,7 @@
 title: 基于 Tortoise Git 的 Git 食用指北
 published: 2026-06-05
 description: 从版本控制基础到 TortoiseGit 图形化操作的全流程指南
+image: ../../assets/images/post-covers/tortoise-git-guide.webp
 tags: [Git, TortoiseGit, 教程, 版本控制]
 category: 工具速查
 ---

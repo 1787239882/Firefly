@@ -2,6 +2,7 @@
 title: Agent 相关笔记
 published: 2026-05-30
 description: Agent 相关笔记整合索引，涵盖 OpenSpec 规范驱动开发、VibeCoding 时代个人优势、Prompt Caching 性能优化与 Token 成本控制等核心主题
+image: ../../assets/images/post-covers/agent-notes-index.webp
 tags: [Agent, AI, 笔记]
 category: AI-Agent
 ---

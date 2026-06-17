@@ -2,6 +2,7 @@
 title: Docker学习
 published: 2026-05-30
 description: Docker 基础概念、核心命令与容器化部署实践指南
+image: ../../assets/images/post-covers/docker-learning.webp
 tags: [Docker, 容器, 微服务, 教程]
 category: 工具速查
 ---

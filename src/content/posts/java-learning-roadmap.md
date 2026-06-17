@@ -2,6 +2,7 @@
 title: Java从零到精通学习路线
 published: 2026-06-15
 description: 面向零基础到精通的Java学习路线，涵盖面向对象、集合框架、泛型、Stream流与Lambda表达式，适合银行开发岗位入门
+image: ../../assets/images/post-covers/java-learning-roadmap.webp
 tags: [Java, 集合, Stream, 面向对象, 学习路线]
 category: 技术成长
 ---

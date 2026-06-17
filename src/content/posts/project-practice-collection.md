@@ -2,6 +2,7 @@
 title: 项目实战合集
 published: 2026-06-15
 description: 三个由浅入深的练手项目：用户管理系统（Spring Boot单体）、微服务商城（Spring Cloud）、数据服务平台（贴近银行实战）
+image: ../../assets/images/post-covers/project-practice-collection.webp
 tags: [项目实战, SpringBoot, SpringCloud, 微服务, 数据服务]
 category: 技术成长
 ---

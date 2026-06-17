@@ -2,6 +2,7 @@
 title: Spring-Cloud-Alibaba微服务指南
 published: 2026-06-15
 description: 从单体到微服务架构演进，详解Nacos注册/配置中心、OpenFeign服务调用与降级、Gateway网关路由与鉴权
+image: ../../assets/images/post-covers/spring-cloud-alibaba.webp
 tags: [SpringCloud, 微服务, Nacos, Gateway, OpenFeign]
 category: 技术成长
 ---

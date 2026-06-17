@@ -2,6 +2,7 @@
 title: "及格万岁，是极糟糕的人生策略——深度分析"
 published: 2026-06-15
 description: "为什么「及格万岁」是人生中最贵的策略——淘汰机制专门识别和剔除追下限的人"
+image: ../../assets/images/post-covers/passing-is-terrible-strategy.webp
 tags: [职场, 个人成长, 深度分析, 思维模型]
 category: "深度思考"
 ---

@@ -2,6 +2,7 @@
 title: 从零搭建一个像 blog.zaneliu.me 的博客网站
 published: 2026-05-30
 description: 从服务器选购到 Halo CMS + Sakura 主题部署的完整博客搭建教程
+image: ../../assets/images/post-covers/build-blog-from-scratch.webp
 tags: [博客, 网站, 教程, Hexo]
 category: 工具速查
 ---

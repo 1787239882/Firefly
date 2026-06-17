@@ -2,6 +2,7 @@
 title: VibeCoding时代，个人的需求在哪
 published: 2026-05-30
 description: 在 VibeCoding 时代，个人程序员的五大核心优势与四种具体策略
+image: ../../assets/images/post-covers/vibecoding-era-needs.webp
 tags: [Agent, VibeCoding, Token, AI编码]
 category: AI-Agent
 ---

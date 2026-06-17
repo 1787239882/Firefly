@@ -2,6 +2,7 @@
 title: 银行大数据中心知识体系
 published: 2026-06-15
 description: 银行数据仓库四层架构（ODS/DWD/DWS/ADS）详解，数据治理四大域，数据服务平台日常职责全景
+image: ../../assets/images/post-covers/banking-big-data.webp
 tags: [数据仓库, 数据治理, ODS, DWD, ADS, 银行领域]
 category: 技术成长
 ---

@@ -2,6 +2,7 @@
 title: TUN模式详解
 published: 2026-05-19
 description: 深入分析 TUN 模式的优缺点、与 TAP 的对比，以及不同场景下的最佳实践
+image: ../../assets/images/post-covers/tun-mode-guide.webp
 tags: [VPN, TUN, 网络隧道, 网络协议, IP 层]
 category: 网络
 ---

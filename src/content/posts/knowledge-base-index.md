@@ -2,6 +2,7 @@
 title: "🗺️ 知识库总索引"
 published: 2026-06-15
 description: "知识库全局导航——一键索引所有笔记，打破知识孤岛"
+image: ../../assets/images/post-covers/knowledge-base-index.webp
 tags: [索引, MOC, 导航]
 category: "导航"
 pinned: true

@@ -2,6 +2,7 @@
 title: Linux运维实战手册
 published: 2026-06-15
 description: 银行开发必备Linux技能：基础命令、日志分析三板斧、vim操作、生产问题排查（CPU飙高/内存泄漏/磁盘满）
+image: ../../assets/images/post-covers/linux-ops-handbook.webp
 tags: [Linux, 运维, 日志分析, 生产排查, 命令行]
 category: 技术成长
 ---

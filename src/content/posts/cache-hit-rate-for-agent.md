@@ -2,6 +2,7 @@
 title: Cache命中率对于Agent的重要性
 published: 2026-04-30
 description: 基于 Claude Code 团队经验，分析 Prompt Caching 的五个核心原则及其对 Agent 产品性能的关键影响
+image: ../../assets/images/post-covers/cache-hit-rate-for-agent.webp
 tags: [AI, prompt-caching, Claude-Code, Anthropic, agent, 性能优化]
 category: AI-Agent
 ---

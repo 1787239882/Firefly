@@ -2,6 +2,7 @@
 title: ElasticSearch 从零到上手
 published: 2026-06-16
 description: 零基础 ElasticSearch 入门教程，涵盖核心概念、CRUD、搜索、聚合、中文分词与实战
+image: ../../assets/images/post-covers/elasticsearch-tutorial.webp
 tags: [ElasticSearch, 搜索引擎, 教程, 中文分词]
 category: 工具速查
 ---

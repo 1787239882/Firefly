@@ -2,6 +2,7 @@
 title: WireGuard 协议分析
 published: 2026-06-15
 description: WireGuard 协议的全面分析：极简设计哲学、加密套件、Cryptokey Routing 与无状态架构
+image: ../../assets/images/post-covers/wireguard-analysis.webp
 tags: [VPN, WireGuard, 协议分析, 加密, 网络安全, TUN]
 category: 网络
 ---

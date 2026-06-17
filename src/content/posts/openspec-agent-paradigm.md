@@ -2,6 +2,7 @@
 title: OpenSpec-Agent的范式
 published: 2026-05-18
 description: OpenSpec 规范驱动开发框架的核心流程与 To B 项目中的强约束性、多语言协同、零沟通成本三大优势
+image: ../../assets/images/post-covers/openspec-agent-paradigm.webp
 tags: [Agent, OpenSpec, AI开发, 范式]
 category: AI-Agent
 ---

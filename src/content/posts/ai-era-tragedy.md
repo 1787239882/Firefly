@@ -2,6 +2,7 @@
 title: "AI 时代的最大悲剧：不是你不会，是你觉得自己「不配」"
 published: 2026-06-05
 description: "AI 时代的习得性无助与观众化危机——「我知道但我不做」背后的心理学"
+image: ../../assets/images/post-covers/ai-era-tragedy.webp
 tags: [AI, 社会思考, 个人成长]
 category: "深度思考"
 ---

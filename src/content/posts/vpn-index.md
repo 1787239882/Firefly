@@ -2,6 +2,7 @@
 title: VPN 知识库
 published: 2026-06-15
 description: VPN 知识库索引，涵盖 TUN 模式详解、WireGuard 协议分析等网络隧道与加密技术
+image: ../../assets/images/post-covers/vpn-index.webp
 tags: [VPN, 索引, 网络隧道, 网络安全]
 category: 网络
 ---

@@ -2,6 +2,7 @@
 title: Git 常用命令速查
 published: 2026-06-05
 description: Git 命令行高频命令速查表，按场景分类涵盖配置、分支、撤销、远程等十二大类
+image: ../../assets/images/post-covers/git-cheatsheet.webp
 tags: [Git, 速查, 命令行]
 category: 工具速查
 ---

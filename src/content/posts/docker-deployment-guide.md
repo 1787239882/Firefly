@@ -2,6 +2,7 @@
 title: Docker容器化部署指南
 published: 2026-06-15
 description: Docker核心概念与10个必会命令，Dockerfile多阶段构建实战，docker-compose一键编排全套微服务基础设施
+image: ../../assets/images/post-covers/docker-deployment-guide.webp
 tags: [Docker, 容器化, docker-compose, 部署, 运维]
 category: 技术成长
 ---
