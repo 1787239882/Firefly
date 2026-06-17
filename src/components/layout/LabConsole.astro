@@ -1,0 +1,209 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon/components";
+import { getCategoryUrl, getPostUrlBySlug, url } from "@/utils/url-utils";
+
+interface Props {
+	posts: CollectionEntry<"posts">[];
+}
+
+const { posts } = Astro.props;
+
+const visiblePosts = posts.filter((post) => !post.data.draft);
+const allTags = new Set(visiblePosts.flatMap((post) => post.data.tags || []));
+const allCategories = new Set(
+	visiblePosts
+		.map((post) => post.data.category)
+		.filter((category): category is string => !!category),
+);
+
+const moduleDefinitions = [
+	{
+		title: "AI-Agent 实验室",
+		label: "Agent Lab",
+		description: "围绕 Agent 架构、OpenSpec、Prompt Caching 和 VibeCoding 的长期研究区。",
+		icon: "material-symbols:hub-outline",
+		href: getCategoryUrl("AI-Agent"),
+		match: (post: CollectionEntry<"posts">) =>
+			post.data.category === "AI-Agent" ||
+			post.data.tags?.some((tag) => ["AI", "Agent"].includes(tag)),
+	},
+	{
+		title: "后端工程路线",
+		label: "Backend Route",
+		description: "Java、Spring、MySQL、Redis、项目实战，沉淀成可复用的工程能力路径。",
+		icon: "material-symbols:deployed-code-outline",
+		href: getCategoryUrl("技术成长"),
+		match: (post: CollectionEntry<"posts">) =>
+			post.data.category === "技术成长" ||
+			post.data.tags?.some((tag) =>
+				["Java", "SpringBoot", "SpringCloud", "MySQL", "Redis"].includes(tag),
+			),
+	},
+	{
+		title: "基础设施与网络",
+		label: "Infra Field",
+		description: "Docker、Linux、VPN、WireGuard、TUN，把部署和网络知识拆成可操作模块。",
+		icon: "material-symbols:lan-outline",
+		href: getCategoryUrl("网络"),
+		match: (post: CollectionEntry<"posts">) =>
+			post.data.category === "网络" ||
+			post.data.tags?.some((tag) =>
+				["Docker", "Linux", "VPN", "WireGuard", "TUN"].includes(tag),
+			),
+	},
+	{
+		title: "认知与策略档案",
+		label: "Thinking Archive",
+		description: "把 AI 时代、财富认知、人生策略这些抽象问题，整理成可回看的思维模型。",
+		icon: "material-symbols:psychology-outline",
+		href: getCategoryUrl("深度思考"),
+		match: (post: CollectionEntry<"posts">) =>
+			post.data.category === "深度思考" ||
+			post.data.tags?.some((tag) => ["个人成长", "深度分析", "思维模型"].includes(tag)),
+	},
+];
+
+const modules = moduleDefinitions.map((module) => {
+	const matchedPosts = visiblePosts.filter(module.match);
+	return {
+		...module,
+		count: matchedPosts.length,
+		latest: matchedPosts[0],
+	};
+});
+
+const featuredPosts = modules
+	.map((module) => module.latest)
+	.filter((post): post is CollectionEntry<"posts"> => !!post)
+	.slice(0, 4);
+
+const recentPosts = visiblePosts.slice(0, 5);
+
+const statItems = [
+	{ label: "文章", value: visiblePosts.length },
+	{ label: "模块", value: modules.length },
+	{ label: "分类", value: allCategories.size },
+	{ label: "标签", value: allTags.size },
+];
+---
+
+<section class="lab-console onload-animation" aria-label="ErHaoXs Lab 控制台">
+	<div class="lab-console__hero">
+		<div class="lab-console__intro">
+			<div class="lab-console__eyebrow">
+				<span class="lab-console__pulse"></span>
+				<span>LAB CONSOLE</span>
+				<span class="lab-console__slash">/</span>
+				<span>PERSONAL KNOWLEDGE OS</span>
+			</div>
+			<h2>把散落的技术笔记，组织成可以反复调用的知识系统。</h2>
+			<p>
+				这里不是传统博客首页，而是一张持续演化的实验台：AI Agent、后端工程、基础设施、网络协议和深度思考会被重新编排成学习路径。
+			</p>
+			<div class="lab-console__actions">
+				<a href="#knowledge-routes" class="lab-console__action lab-console__action--primary">
+					<Icon name="material-symbols:route-outline" />
+					<span>查看知识路线</span>
+				</a>
+				<a href={getPostUrlBySlug("knowledge-base-index")} class="lab-console__action">
+					<Icon name="material-symbols:map-outline" />
+					<span>知识库总索引</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="lab-console__radar" aria-hidden="true">
+			<div class="lab-console__radar-core">
+				<Icon name="material-symbols:memory-alt-outline" />
+			</div>
+			<div class="lab-console__orbit lab-console__orbit--one"></div>
+			<div class="lab-console__orbit lab-console__orbit--two"></div>
+			<div class="lab-console__node lab-console__node--a"></div>
+			<div class="lab-console__node lab-console__node--b"></div>
+			<div class="lab-console__node lab-console__node--c"></div>
+		</div>
+	</div>
+
+	<div class="lab-console__stats" aria-label="知识库状态">
+		{
+			statItems.map((item) => (
+				<div class="lab-console__stat">
+					<span>{item.label}</span>
+					<strong>{item.value}</strong>
+				</div>
+			))
+		}
+	</div>
+
+	<div class="lab-console__section-head" id="knowledge-routes">
+		<div>
+			<span>Knowledge Routes</span>
+			<h3>优先从路线进入，而不是从时间线迷路。</h3>
+		</div>
+		<a href={url("/archive/")} class="lab-console__text-link">
+			<Icon name="material-symbols:archive-outline" />
+			<span>全部归档</span>
+		</a>
+	</div>
+
+	<div class="lab-console__routes">
+		{
+			modules.map((module) => (
+				<a href={module.href} class="lab-route">
+					<div class="lab-route__icon">
+						<Icon name={module.icon} />
+					</div>
+					<div class="lab-route__body">
+						<span>{module.label}</span>
+						<h4>{module.title}</h4>
+						<p>{module.description}</p>
+					</div>
+					<div class="lab-route__meta">
+						<strong>{module.count}</strong>
+						<span>notes</span>
+					</div>
+				</a>
+			))
+		}
+	</div>
+
+	<div class="lab-console__split">
+		<section class="lab-panel" aria-label="精选入口">
+			<div class="lab-panel__head">
+				<Icon name="material-symbols:deployed-code-history-outline" />
+				<span>Featured Nodes</span>
+			</div>
+			<div class="lab-panel__list">
+				{
+					featuredPosts.map((post, index) => (
+						<a href={getPostUrlBySlug(post.id)} class="lab-node">
+							<span>{String(index + 1).padStart(2, "0")}</span>
+							<div>
+								<strong>{post.data.title}</strong>
+								<small>{post.data.category || "未分类"}</small>
+							</div>
+						</a>
+					))
+				}
+			</div>
+		</section>
+
+		<section class="lab-panel" aria-label="最近更新">
+			<div class="lab-panel__head">
+				<Icon name="material-symbols:bolt-outline" />
+				<span>Recent Signals</span>
+			</div>
+			<div class="lab-panel__list">
+				{
+					recentPosts.map((post) => (
+						<a href={getPostUrlBySlug(post.id)} class="lab-signal">
+							<span>{post.data.published.toISOString().slice(5, 10)}</span>
+							<strong>{post.data.title}</strong>
+						</a>
+					))
+				}
+			</div>
+		</section>
+	</div>
+</section>

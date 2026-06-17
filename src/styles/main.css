@@ -6,6 +6,7 @@
 @import './transition.css'; 
 @import './custom-scrollbar.css';
 @import './cyber-lab.css';
+@import './lab-console.css';
 
 
 @plugin '@tailwindcss/typography';
