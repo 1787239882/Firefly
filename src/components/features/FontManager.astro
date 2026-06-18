@@ -39,7 +39,8 @@ const generateFontFamilyStyle = () => {
 		? fontConfig.selected
 		: [fontConfig.selected];
 
-	const selectedFontFamilies = selectedIds
+	const bodyFontIds = selectedIds.filter((id) => id !== "orbitron");
+	const selectedFontFamilies = bodyFontIds
 		.map((id) => fontConfig.fonts[id])
 		.filter((font) => font)
 		.map((font) => `"${font.family}"`);

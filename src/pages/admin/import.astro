@@ -1,0 +1,11 @@
+---
+import ArticleImportWorkbench from "@/components/pages/ArticleImportWorkbench.svelte";
+import MainGridLayout from "@/layouts/MainGridLayout.astro";
+
+const title = "文章导入工作台";
+const description = "本地导入 md/pdf 并生成博客文章 Markdown";
+---
+
+<MainGridLayout title={title} description={description}>
+	<ArticleImportWorkbench client:load />
+</MainGridLayout>

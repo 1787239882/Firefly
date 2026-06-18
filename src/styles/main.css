@@ -17,8 +17,23 @@
 /* Tailwind v4 配置 - 从 tailwind.config.cjs 迁移 */
 @theme {
   --font-sans:
-    'Roboto', 'sans-serif', ui-sans-serif, system-ui, sans-serif,
+    'Rajdhani', 'MiSans', 'Roboto', 'sans-serif', ui-sans-serif, system-ui, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:root {
+  --font-display-cyber: 'Orbitron', 'Rajdhani', 'MiSans', ui-sans-serif, system-ui, sans-serif;
+}
+
+.banner-title,
+.banner-page-title,
+.banner-post-title,
+.post-card-title,
+.widget-title,
+.navbar-title,
+.lab-console h2,
+.lab-console__section-head h3 {
+  font-family: var(--font-display-cyber);
 }
 
 /* 自定义工具类 - Tailwind v4 使用 @utility 定义 */
